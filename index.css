@@ -1,3 +1,61 @@
-#heading{
-    color: red;
+.app {
+  margin: 0;
+  padding: 0; 
+    padding: 10px 15px; 
+}
+
+.img-logo{
+  max-width: 200px;
+  max-height: 170px;
+  object-fit: cover;
+}
+
+.firstHeader {
+    background-color: #1B171B;
+  /* padding: 10px 15px;            */
+  align-items: center;         
+}
+
+.firstHeader p {
+  margin: 0;                    
+}
+
+.logo-container img {
+  display: block;               
+}
+
+.input-search {
+  border: 1px solid #bfbfbf;
+  border-radius: 10px;
+  padding: 4px 12px;          
+  width: 30vw;
+  align-items: center;          
+  gap: 6px;                     
+  color: white;
+}
+.res-card-wrapper {
+  width: 250px;
+}
+.res-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.res-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.res-img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.1rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
 }

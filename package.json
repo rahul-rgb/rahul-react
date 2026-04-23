@@ -1,0 +1,31 @@
+{
+  "name": "rahul-react",
+  "version": "1.0.0",
+  "description": "this is rahul's packages",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul-rgb/rahul-react.git"
+  },
+  "keywords": [
+    "rahul-react"
+  ],
+  "author": "rahul singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahul-rgb/rahul-react/issues"
+  },
+  "homepage": "https://github.com/rahul-rgb/rahul-react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
